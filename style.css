@@ -1,0 +1,80 @@
+.rouge-script-regular { 
+    font-family: "Rouge Script", cursive;
+     font-weight: 400; 
+     font-style: normal; 
+    }
+    
+    
+    
+    
+
+
+    :root{
+     --preto-mais-preto-mas-roxo: #10002bff; 
+     --preto-roxo: #240046ff;
+      --roxo-mais-escuro: #3c096cff;
+       --roxo-escuro: #5a189aff; 
+       --roxo: #7b2cbfff; 
+       --roxo-meio: #9d4eddff; 
+       --roxo-um-pouco-mais-roxo: #c77dffff; 
+       --roxo-claro: #e0aaffff; 
+       --titulo: "rouge-script-regular"; 
+       --texto: "Rouge Script, cursive"; 
+   
+   
+   
+   
+    } 
+    
+    body{ 
+        background-color:#7b2cbfff font-family var(--texto); 
+    
+    
+    } 
+    
+    
+    h1{ font-family: var(--titulo); 
+    
+    
+    } header{ 
+    background-color: #3c096cff;
+
+
+ } 
+ .menu{ 
+    display: flex; list-style: nome;
+    gap: 20px; margin: 10px; color: var(--preto-roxo) text-transform : #3c096cff "Rouge Script, cursive" ; font-size: 14px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
