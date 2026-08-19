@@ -10,14 +10,14 @@
 
 
     :root{
-     --preto-mais-preto-mas-roxo: #10002bff; 
-     --preto-roxo: #240046ff;
+     --amarelo-mostarda: rgb(209, 157, 13); 
+     --verde-profundo: rgb(0, 70, 23);
       --roxo-mais-escuro: #3c096cff;
        --roxo-escuro: #5a189aff; 
        --roxo: #7b2cbfff; 
-       --roxo-meio: #9d4eddff; 
-       --roxo-um-pouco-mais-roxo: #c77dffff; 
-       --roxo-claro: #e0aaffff; 
+       --azul-ciano-claro: rgb(13, 175, 216); 
+       --verde-água-escuro: rgb(14, 180, 153); 
+       --amarelo-alaranjado-translúcido: rgba(201, 150, 9, 0.644); 
        --titulo: "rouge-script-regular"; 
        --texto: "Rouge Script, cursive"; 
    
@@ -27,7 +27,7 @@
     } 
     
     body{ 
-        background-color:#7b2cbfff font-family var(--texto); 
+        background-color:rgba(11, 149, 204, 0.363) font-family var(--texto); 
     
     
     } 
@@ -37,14 +37,15 @@
     
     
     } header{ 
-    background-color: #3c096cff;
+    background-color: rgba(30, 9, 108, 0.521);
 
 
  } 
  .menu{ 
     display: flex; list-style: nome;
-    gap: 20px; margin: 10px; color: var(--preto-roxo) text-transform : #3c096cff "Rouge Script, cursive" ; font-size: 14px}
+    gap: 20px; margin: 10px; color: var(--verde-profundo); text-transform : #3c096cff "Rouge Script, cursive" ; font-size: 15px}
 
+    
 
 
 
