@@ -6,8 +6,8 @@
 }
 
 :root{
-    --cinza-chumbo: rgb(180, 151, 18);
-    --cinza-verde: rgb(122, 50, 2);
+    --azul-escuro: rgb(11, 117, 204);
+    --azul-claro: rgb(12, 122, 212);
     --prata: #bcb8b1ff;
     --branco: #f4f3eeff; 
     --titulo: "Montenegrin Gothic One", serif;
@@ -32,13 +32,17 @@ header{
     color: var(--branco);
     text-transform: uppercase;
     font-size: 14px;
-}
 
 .img.capa[
      width: 100%;    
      height: 5%;
 ]
 
+.conteudo{
+    margin: 200%;
+    
+
+}
 
 
 
@@ -57,9 +61,14 @@ header{
 
 
 
-
-
-
+footer{
+    background-color: var(--azul-claro);
+    color: var(--prata);
+    font-family: var(--titulo);
+    font-size: 20px;
+    padding: 20px;
+    text-align; center;
+}
 
 
 
