@@ -1,0 +1,44 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaac</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <p><img class="logo" src="" alt="Logo"></p>
+        </div>
+        <div>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Loja</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main> 
+        <img class="img-capa" src="img/Isaac.jpeg" alt="Pequeno Chorão">
+    </main>
+
+    <div class="caixinha">
+        <h3 class="conteudo-título">Tudo sobre TBOI</h3>
+        <p class="conteudo">é um RPG de ação estilo <em>roguelike</em> com mapas gerados aleatoriamente. 
+            No jogo, você acompanha a jornada de Isaac, um garoto que foge para o porão de sua casa após sua mãe receber 
+            uma suposta mensagem divina exigindo seu sacrifício. Enfrente monstros grotescos, colete mais de centenas de itens 
+            bizarros que mudam completamente sua aparência e habilidades, e descubra os segredos sombrios escondidos em cada andar.
+        </p></p>
+    </div>
+
+    <footer>Feito por Mig$ (©)</footer>
+</body>
+
+</html>
