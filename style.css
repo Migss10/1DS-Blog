@@ -1,78 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Montenegrin+Gothic+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     margin: 0;
-    padding: 20;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-:root{
-    --azul-escuro: rgb(11, 117, 204);
-    --azul-claro: rgb(12, 122, 212);
-    --prata: #bcb8b1ff;
-    --branco: #f4f3eeff; 
-    --titulo: "Montenegrin Gothic One", serif;
-    --texto:  "Raleway", sans-serif;
+:root {
+   
+    --vermelho-sangue: #8b0000;
+    --vermelho-vivo: #d90429;
+    --pergaminho-claro: #f4ebd9; 
+    --osso: #e3d5ca;           
+    --sombra-fundo: #121113;      
+    --caverna-escura: #1d1b20;    
+    
+    --titulo: "Montserrat", sans-serif;
+    --texto: "Raleway", sans-serif;
 }
 
-body{
-    background: var(--cinza-verde);
+body {
+    background-color: var(--sombra-fundo);
     font-family: var(--texto);
+    color: var(--pergaminho-claro);
 }
-header{
-    background-color: var(--cinza-chumbo);
+
+header {
+    background-color: var(--caverna-escura);
     display: flex;
     justify-content: space-around;
-    color: var(--prata  );
+    align-items: center;
+    color: var(--pergaminho-claro);
+    border-bottom: 2px solid var(--vermelho-sangue);
 }
+
 .menu {
     display: flex;
     list-style: none;
     gap: 20px;
     margin: 10px;
-    color: var(--branco);
+    color: var(--osso);
     text-transform: uppercase;
     font-size: 14px;
-
-.img.capa[
-     width: 100%;    
-     height: 5%;
-]
-
-.conteudo{
-    margin: 200%;
-    
-
 }
 
+.menu a {
+    color: var(--osso);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
 
+.menu a:hover {
+    color: var(--vermelho-vivo);
+}
 
+.img-capa {
+    width: 50%;           
+    max-width: 600px;    
+    display: block;
+    margin: 20px auto;   
+    height: auto;
+    border: 2px solid var(--vermelho-sangue);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer{
-    background-color: var(--azul-claro);
-    color: var(--prata);
-    font-family: var(--titulo);
-    font-size: 20px;
+.conteudo {
+    margin: 20px auto;
+    max-width: 900px;
     padding: 20px;
-    text-align; center;
+    background-color: var(--caverna-escura);
+    color: var(--pergaminho-claro);
+    border-radius: 8px;
 }
 
-
-
-
+footer {
+    background-color: var(--caverna-escura);
+    color: var(--osso);
+    font-family: var(--titulo);
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid var(--vermelho-sangue);
+}
 
 
 
